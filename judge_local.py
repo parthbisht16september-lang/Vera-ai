@@ -3,8 +3,13 @@
 import os
 from pathlib import Path
 
+import os
+os.environ["LLM_API_KEY"] = "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"
+
+
 # Force Python to read the .env file in the current folder manually
 env_path = Path(__file__).parent / ".env"
+
 if env_path.exists():
     with open(env_path, "r") as f:
         for line in f:
