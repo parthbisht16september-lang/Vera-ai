@@ -1,0 +1,263 @@
+{
+  "T01": {
+    "body_hash": "df8eb7a3e3f1855a86048c7427b380730d2813eb6c5f05f9d6493d7b581a7205",
+    "total": 31,
+    "hint": "Weave in a data point or two from recent performance to boost specificity.",
+    "fingerprint": "afc80181c159ac95d3ffef797f45e56aa020de5d963e50e49943f433bcc16f8d",
+    "source": "Imported from your previous pasted judge output; only total and hint were available"
+  },
+  "T02": {
+    "body_hash": "70fc67778af6c073f9735abe34f9331feef0197468542dc7497b68b4477161b1",
+    "total": 25,
+    "hint": "Add a concrete age-group suggestion and a quick win to boost reply urgency.",
+    "fingerprint": "feed1232840336c9861d5ce10039f69ac7db22f5d870231b6e8a7549e01982cd",
+    "source": "Imported from your previous pasted judge output; only total and hint were available"
+  },
+  "T05": {
+    "fingerprint": "0f4dc5b3917ebf6ecf6044511ce6a30449e7ba3924b5cb8aa10058b274ca7d9f",
+    "total": 39,
+    "hint": "Add a concrete % boost to heighten urgency.",
+    "details": {
+      "specificity": 6,
+      "specificity_reason": "References the seasonal ORS demand increase from the trigger but omits exact % figures, limiting verifiable detail.",
+      "category_fit": 8,
+      "category_fit_reason": "Uses a trustworthy, precise tone appropriate for a neighbourhood pharmacist without prohibited language.",
+      "merchant_fit": 9,
+      "merchant_fit_reason": "Addresses Apollo Health Plus Pharmacy by name and aligns with the summer demand signal specific to their location.",
+      "decision_quality": 9,
+      "decision_quality_reason": "Directly ties the outreach to the current seasonal trigger, making the outreach timely and relevant.",
+      "engagement_compulsion": 7,
+      "engagement_reason": "A simple yes/no CTA for a checklist lowers friction and invites reply, though it lacks stronger urgency cues.",
+      "hint": "Add a concrete % boost to heighten urgency."
+    },
+    "source": "Groq local judge"
+  },
+  "T06": {
+    "fingerprint": "b24ec93ef975f9544941e1e9812635565af1ee772e1e8ea5b048eed7401f4d8c",
+    "total": 38,
+    "hint": "Inject a peer‑clinical data point or benefit to boost collegial tone.",
+    "details": {
+      "specificity": 8,
+      "specificity_reason": "The body cites the exact webinar title and the 2 CDE credits, matching the digest and trigger payload.",
+      "category_fit": 5,
+      "category_fit_reason": "Tone is very brief and lacks the peer‑clinical, Hindi‑English mix expected for dentists; it reads more like a generic prompt.",
+      "merchant_fit": 9,
+      "merchant_fit_reason": "Uses the correct clinic name and references IDA Delhi, with no fabricated details and respects the merchant’s language setting.",
+      "decision_quality": 9,
+      "decision_quality_reason": "Message is directly tied to the CDE opportunity trigger, offering the event info before the expiry time.",
+      "engagement_compulsion": 7,
+      "engagement_reason": "A simple yes/no ask is low‑friction and likely to get a reply, though it could benefit from a stronger incentive or urgency.",
+      "hint": "Inject a peer‑clinical data point or benefit to boost collegial tone."
+    },
+    "source": "Groq local judge"
+  },
+  "T07": {
+    "fingerprint": "09a15afab531bef2fe656125a15d46d7a165eb90234513a1ef5942dea09107e7",
+    "total": 33,
+    "hint": "Insert the pharmacy name and a quick benefit (e.g., saved ₹) to tighten relevance and drive reply.",
+    "details": {
+      "specificity": 6,
+      "specificity_reason": "Uses the exact refill‑due date from the trigger, but lacks additional concrete details (e.g., molecule list or savings).",
+      "category_fit": 8,
+      "category_fit_reason": "Trustworthy, precise tone appropriate for a pharmacy; avoids taboo language but could mix Hindi for full code‑mix compliance.",
+      "merchant_fit": 5,
+      "merchant_fit_reason": "Addresses the customer by name but does not reference Apollo Health Plus Pharmacy or any merchant‑specific data.",
+      "decision_quality": 8,
+      "decision_quality_reason": "Directly ties to the chronic refill trigger and uses the consented reminder context, making the ask timely.",
+      "engagement_compulsion": 6,
+      "engagement_reason": "Clear yes/no CTA with low friction, but lacks a compelling benefit or urgency to boost response.",
+      "hint": "Insert the pharmacy name and a quick benefit (e.g., saved ₹) to tighten relevance and drive reply."
+    },
+    "source": "Groq local judge"
+  },
+  "T09": {
+    "fingerprint": "3273d3aa3e7f3772fab3666304d78869c316456b9038efd7796909dfb6b51ea6",
+    "total": 35,
+    "hint": "Inject peer‑clinical phrasing and a bilingual hook to raise relevance and tone.",
+    "details": {
+      "specificity": 9,
+      "specificity_reason": "Cites exact competitor name, distance (1.3 km) and the merchant's active ₹299 cleaning offer, all directly from the trigger and merchant data.",
+      "category_fit": 4,
+      "category_fit_reason": "Tone is plain marketing, lacking peer‑clinical language, Hindi‑English mix, and allowed dental vocab; does not match the dentist voice guidelines.",
+      "merchant_fit": 8,
+      "merchant_fit_reason": "Correctly uses Dr. Meera's clinic name, references the real competitor and the active offer; no fabricated details, respects language preferences.",
+      "decision_quality": 8,
+      "decision_quality_reason": "Message ties directly to the competitor‑opened trigger, offering a concrete action (post) that addresses the immediate competitive threat.",
+      "engagement_compulsion": 6,
+      "engagement_reason": "Simple yes/no CTA is low friction, but lacks stronger loss‑aversion or curiosity hooks to boost reply likelihood.",
+      "hint": "Inject peer‑clinical phrasing and a bilingual hook to raise relevance and tone."
+    },
+    "source": "Groq local judge"
+  },
+  "T11": {
+    "fingerprint": "4eab6e290592dcfff6fa62b0a9cc91296d3c90bec4648b974193a089d8aab075",
+    "total": 23,
+    "hint": "Add a warm greeting, local data point, and a subtle incentive to boost reply odds.",
+    "details": {
+      "specificity": 2,
+      "specificity_reason": "The message contains no numbers, dates, or verifiable facts; it is only a generic question.",
+      "category_fit": 3,
+      "category_fit_reason": "Salons require a warm, practical tone with Hindi‑English mix and relevant vocab, which the message lacks.",
+      "merchant_fit": 5,
+      "merchant_fit_reason": "It correctly uses the salon name but does not reference any local data, owner name, or language preference.",
+      "decision_quality": 8,
+      "decision_quality_reason": "The ask matches the trigger payload exactly, asking about the service in demand this week.",
+      "engagement_compulsion": 5,
+      "engagement_reason": "An open‑ended question may elicit a reply, but there is no loss aversion, curiosity hook, or low‑friction CTA.",
+      "hint": "Add a warm greeting, local data point, and a subtle incentive to boost reply odds."
+    },
+    "source": "Groq local judge"
+  },
+  "T13": {
+    "fingerprint": "bd8c5233312f96ce21bbc4275a8cd04264d40f78fad5269b9b63695d73ca5af3",
+    "total": 32,
+    "hint": "Inject energetic coaching language and a compelling hook (e.g., limited‑time class offer) to boost engagement.",
+    "details": {
+      "specificity": 8,
+      "specificity_reason": "Accurately cites the 57‑day gap from the trigger payload, a verifiable fact, but offers no additional concrete details.",
+      "category_fit": 4,
+      "category_fit_reason": "Tone is bland and lacks the energetic, coach‑to‑member style and gym‑specific vocab expected for a fitness brand.",
+      "merchant_fit": 9,
+      "merchant_fit_reason": "Correctly uses the merchant name and the customer's first name, respects language preference, and contains no fabricated data.",
+      "decision_quality": 7,
+      "decision_quality_reason": "Directly references the lapsed‑hard trigger and the visit gap, making the outreach timely, though it could leverage more contextual insights.",
+      "engagement_compulsion": 4,
+      "engagement_reason": "Provides a simple yes/no CTA with low friction but lacks loss aversion, curiosity hooks, or social proof to drive a reply.",
+      "hint": "Inject energetic coaching language and a compelling hook (e.g., limited‑time class offer) to boost engagement."
+    },
+    "source": "Groq local judge"
+  },
+  "T16": {
+    "fingerprint": "c7d965532c03cf9fc7ccf9edc904faca17b0092b98220bf163c48bc466931121",
+    "total": 27,
+    "hint": "Inject a warm, practical tone and a compelling benefit to boost reply likelihood.",
+    "details": {
+      "specificity": 6,
+      "specificity_reason": "Mentions the exact 38‑day gap and subscription expiry, which are verifiable from the trigger payload, but provides no additional concrete details.",
+      "category_fit": 2,
+      "category_fit_reason": "The tone is flat and formal, lacking the warm, practical, Hindi‑English mix expected for a salon and omits any salon‑specific vocabulary.",
+      "merchant_fit": 8,
+      "merchant_fit_reason": "Correctly uses the merchant’s full name and references the 38‑day dormancy, aligning with the provided data without fabricating anything.",
+      "decision_quality": 7,
+      "decision_quality_reason": "Directly ties the message to the dormant‑with‑vera trigger and subscription expiry, making the outreach timely and relevant.",
+      "engagement_compulsion": 4,
+      "engagement_reason": "A simple yes/no ask offers low friction but lacks loss aversion, curiosity or social proof to strongly motivate a reply.",
+      "hint": "Inject a warm, practical tone and a compelling benefit to boost reply likelihood."
+    },
+    "source": "Groq local judge"
+  },
+  "T17": {
+    "fingerprint": "1211e509828a546bbd36d15f54b20a3b3e1d725c7323380430ebad02e2e8cc5f",
+    "total": 37,
+    "hint": "Swap a plain ask for a quick ‘avoid further dip’ hook with a tasty emoji.",
+    "details": {
+      "specificity": 8,
+      "specificity_reason": "Uses the exact 21% call drop over 7 days from merchant data, a concrete verifiable metric.",
+      "category_fit": 6,
+      "category_fit_reason": "Tone is practical but lacks the warm_busy_practical, Hindi-English mix and restaurant‑specific vocab expected for this category.",
+      "merchant_fit": 9,
+      "merchant_fit_reason": "Correctly addresses the merchant by name and cites an accurate performance figure; no fabricated info.",
+      "decision_quality": 8,
+      "decision_quality_reason": "Directly responds to the dormant trigger by highlighting the call decline and offering a relevant checklist.",
+      "engagement_compulsion": 6,
+      "engagement_reason": "Provides a simple yes/no CTA that invites a reply, but lacks stronger loss aversion or social proof to boost urgency.",
+      "hint": "Swap a plain ask for a quick ‘avoid further dip’ hook with a tasty emoji."
+    },
+    "source": "Groq local judge"
+  },
+  "T20": {
+    "fingerprint": "7a9d7ae365f357309c82a5e26acf0f850479a765e3c0edbc254b6ed6f9f029de",
+    "total": 40,
+    "hint": "Add a quick benefit line to make the steps feel time‑critical.",
+    "details": {
+      "specificity": 8,
+      "specificity_reason": "States the unverified status and verification methods exactly as in the trigger payload, providing verifiable facts.",
+      "category_fit": 7,
+      "category_fit_reason": "Uses a trustworthy, precise tone appropriate for a pharmacy but lacks the Hindi‑English mix and specific pharma vocab.",
+      "merchant_fit": 9,
+      "merchant_fit_reason": "Correctly addresses Sunrise Medicos by name and references the exact verification options from the merchant’s trigger data.",
+      "decision_quality": 9,
+      "decision_quality_reason": "Directly ties to the unverified‑GBP trigger, using the payload’s details and urgency without generic filler.",
+      "engagement_compulsion": 7,
+      "engagement_reason": "Offers a simple yes/no CTA asking for steps, low friction and curiosity‑driven, though no strong loss‑aversion cue.",
+      "hint": "Add a quick benefit line to make the steps feel time‑critical."
+    },
+    "source": "Groq local judge"
+  },
+  "T21": {
+    "fingerprint": "ddef497522fd7f89164d44080021257d893507b18b7524f07d41f63a8d7ccdc5",
+    "total": 31,
+    "hint": "Blend in a Hindi phrase and a metric like expected footfall to hit the operator vibe.",
+    "details": {
+      "specificity": 7,
+      "specificity_reason": "Uses exact match (DC vs MI) and city from the trigger, providing verifiable facts, but lacks additional concrete details like time or numbers.",
+      "category_fit": 3,
+      "category_fit_reason": "Message is plain English and missing the warm_busy_practical, fellow_operator tone and allowed restaurant vocab; it feels generic rather than operator‑to‑operator.",
+      "merchant_fit": 6,
+      "merchant_fit_reason": "Addresses the merchant by name and references the current IPL match, but does not use owner name or Hindi‑English mix and omits any merchant‑specific data beyond the name.",
+      "decision_quality": 8,
+      "decision_quality_reason": "Directly ties to the IPL match‑today trigger, offering a timely action (drafting a match‑day post) that aligns with the urgency.",
+      "engagement_compulsion": 7,
+      "engagement_reason": "Clear yes/no CTA invites a quick reply with low friction, though it could boost curiosity or loss aversion.",
+      "hint": "Blend in a Hindi phrase and a metric like expected footfall to hit the operator vibe."
+    },
+    "source": "Groq local judge"
+  },
+  "T22": {
+    "fingerprint": "bb0ed6911e469142cf522924d6c0a747eaca113bd1946375bd8bcc026b44af44",
+    "total": 34,
+    "hint": "Blend a friendly Hindi‑English greeting and a quick loss‑aversion line to boost operator appeal.",
+    "details": {
+      "specificity": 9,
+      "specificity_reason": "Uses exact review count (145) and milestone (150) directly from trigger payload.",
+      "category_fit": 3,
+      "category_fit_reason": "Tone is plain and lacks the warm_busy_practical, fellow_operator voice; no Hindi‑English mix or allowed restaurant vocab.",
+      "merchant_fit": 7,
+      "merchant_fit_reason": "Correctly names the cafe and cites real review data, but misses a personal salutation or owner reference.",
+      "decision_quality": 9,
+      "decision_quality_reason": "Message is tightly tied to the imminent review‑count milestone trigger, showing clear relevance.",
+      "engagement_compulsion": 6,
+      "engagement_reason": "Simple yes/no CTA invites reply, but lacks stronger loss‑aversion or social‑proof hooks.",
+      "hint": "Blend a friendly Hindi‑English greeting and a quick loss‑aversion line to boost operator appeal."
+    },
+    "source": "Groq local judge"
+  },
+  "T24": {
+    "fingerprint": "50501b0530ccf78844aa41d683dcdc7aacf8d04807598600c2855d50c81ee50d",
+    "total": 34,
+    "hint": "Blend a clinical term with a Hindi phrase to raise relevance.",
+    "details": {
+      "specificity": 8,
+      "specificity_reason": "The message cites the exact 50% drop in calls over the past 7 days, matching the trigger payload, and correctly names the merchant.",
+      "category_fit": 3,
+      "category_fit_reason": "The tone is generic and lacks the peer‑clinical, Hindi‑English mix and dental vocabulary expected for a dentist audience.",
+      "merchant_fit": 7,
+      "merchant_fit_reason": "Uses the correct business name and no fabricated data, but could personalize further with the owner’s name or language preference.",
+      "decision_quality": 9,
+      "decision_quality_reason": "Directly addresses the performance dip trigger, making the outreach timely and relevant.",
+      "engagement_compulsion": 7,
+      "engagement_reason": "A simple yes/no CTA invites a quick reply, though adding a mild loss‑aversion hook could boost response rates.",
+      "hint": "Blend a clinical term with a Hindi phrase to raise relevance."
+    },
+    "source": "Groq local judge"
+  },
+  "T26": {
+    "fingerprint": "89b3fcbdfcd69506446bddcc76a15fb6785e19cc98fa2fd6fe40657c4e67d591",
+    "total": 39,
+    "hint": "Inject a gym‑specific benefit or term to tighten category alignment.",
+    "details": {
+      "specificity": 9,
+      "specificity_reason": "The message cites the exact 15% call increase over 7 days, matching the trigger payload.",
+      "category_fit": 6,
+      "category_fit_reason": "Tone is coach‑like but lacks gym‑specific vocabulary (e.g., footfall, PT), making it only moderately aligned.",
+      "merchant_fit": 8,
+      "merchant_fit_reason": "Uses the correct studio name and references the relevant performance metric without fabricating data.",
+      "decision_quality": 9,
+      "decision_quality_reason": "Directly ties to the perf_spike trigger and proposes a concrete next step, showing strong relevance.",
+      "engagement_compulsion": 7,
+      "engagement_reason": "A simple yes/no CTA is low friction, though it could benefit from stronger loss‑aversion or curiosity hooks.",
+      "hint": "Inject a gym‑specific benefit or term to tighten category alignment."
+    },
+    "source": "Groq local judge"
+  }
+}
