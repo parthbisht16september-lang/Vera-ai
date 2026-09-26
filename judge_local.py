@@ -1,3 +1,23 @@
+
+
+import os
+from pathlib import Path
+
+# Force Python to read the .env file in the current folder manually
+env_path = Path(__file__).parent / ".env"
+if env_path.exists():
+    with open(env_path, "r") as f:
+        for line in f:
+            if "=" in line and not line.strip().startswith("#"):
+                key, value = line.strip().split("=", 1)
+                os.environ[key.strip()] = value.strip().strip('"').strip("'")
+
+
+
+
+
+
+
 #!/usr/bin/env python3
 """
 magicpin AI Challenge — LLM-Powered Judge Simulator
